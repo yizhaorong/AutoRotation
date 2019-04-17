@@ -1,0 +1,6 @@
+framework module AutoRotation {
+  umbrella header "AutoRotation-umbrella.h"
+
+  export *
+  module * { export * }
+}

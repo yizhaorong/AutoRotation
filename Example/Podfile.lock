@@ -1,0 +1,16 @@
+PODS:
+  - AutoRotation (1.0.1)
+
+DEPENDENCIES:
+  - AutoRotation (from `../`)
+
+EXTERNAL SOURCES:
+  AutoRotation:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AutoRotation: d872657b5affb11aa6e37532b89d764fa8c38c5d
+
+PODFILE CHECKSUM: 8b7537764a05261d99dd84d1f14f9903ea8db66a
+
+COCOAPODS: 1.7.0.beta.3

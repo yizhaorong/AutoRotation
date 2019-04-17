@@ -7,6 +7,7 @@
 //
 
 #import "ARViewController.h"
+#import <AutoRotation/AutoRotation.h>
 
 @interface ARViewController ()
 
@@ -14,16 +15,23 @@
 
 @implementation ARViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeContactAdd];
+    button.frame = CGRectMake(100, 100, 100, 44);
+    button.backgroundColor = [UIColor redColor];
+    [button addTarget:self action:@selector(alertAction:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)alertAction:(id)sender {
+    UIAlertController *alertControler = [UIAlertController alertControllerWithTitle:@"alert" message:@"body" preferredStyle:UIAlertControllerStyleAlert];
+    [self presentViewController:alertControler animated:YES completion:nil];
+}
+
+- (UIInterfaceOrientationMask)ar_supportedRotations {
+    return UIInterfaceOrientationMaskAllButUpsideDown;
 }
 
 @end
