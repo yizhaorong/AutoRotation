@@ -2,8 +2,8 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "AutoRotation"
-  spec.version      = "0.0.1"
-  spec.summary      = "AutoRotation"
+  spec.version      = "1.0.0"
+  spec.summary      = "解决主体应用是竖屏情况下，自动横竖屏适配"
 
   spec.homepage     = "https://github.com/yizhaorong/AutoRotation"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
