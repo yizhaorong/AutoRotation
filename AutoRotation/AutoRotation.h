@@ -8,7 +8,6 @@
 #ifndef AutoRotation_h
 #define AutoRotation_h
 
-//#import "UIViewController+AutoRotation.h"
-#import <UIKit/UIKit.h>
+#import "UIViewController+AutoRotation.h"
 
 #endif /* AutoRotation_h */

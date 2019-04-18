@@ -35,14 +35,14 @@ static NSMutableSet<NSString *> *kSpecialControllers;
 + (void)load {
     kSpecialControllers = [NSMutableSet setWithArray:@[@"UIInputWindowController", @"UIApplicationRotationFollowingController", @"UIAlertController"]];
     ar_exchangeMethod(self, @selector(viewWillAppear:), self, @selector(ar_viewWillAppear:));
-    ar_exchangeMethod(self, @selector(ar_supportedRotations), self, @selector(_ar_supportedRotations));
+    ar_exchangeMethod(self, @selector(ar_supportedOrientations), self, @selector(_ar_supportedOrientations));
     ar_exchangeMethod(self, @selector(dismissViewControllerAnimated:completion:), self, @selector(ar_dismissViewControllerAnimated:completion:));
     ar_exchangeMethod(self, @selector(addChildViewController:), self, @selector(ar_addChildViewController:));
 }
 
 - (void)ar_viewWillAppear:(BOOL)animated {
     if (!self.ar_isChildController) {
-        UIInterfaceOrientationMask mask = [self ar_supportedRotations];
+        UIInterfaceOrientationMask mask = [self ar_supportedOrientations];
         [UIViewController setOrientation:mask];
     } else {
         NSLog(@"ar log: %@ ignoreRotations", NSStringFromClass(self.class));
@@ -66,15 +66,15 @@ static NSMutableSet<NSString *> *kSpecialControllers;
     [self ar_addChildViewController:childController];
 }
 
-- (UIInterfaceOrientationMask)ar_supportedRotations {
+- (UIInterfaceOrientationMask)ar_supportedOrientations {
     return UIInterfaceOrientationMaskPortrait;
 }
 
-- (UIInterfaceOrientationMask)_ar_supportedRotations {
+- (UIInterfaceOrientationMask)_ar_supportedOrientations {
     [UIViewController fixedControllerOrientationWithController:self];
     NSInteger mask = (NSInteger)self.ar_orientationMask;
     if (mask == 0) {
-        return [self _ar_supportedRotations];
+        return [self _ar_supportedOrientations];
     } else {
         return self.ar_orientationMask;
     }
@@ -246,10 +246,10 @@ static NSMutableSet<NSString *> *kSpecialControllers;
         }
         // 获取真实需要处理的 Controller
         if (ctrl && ![kSpecialControllers containsObject:NSStringFromClass(ctrl.class)]) {
-            mask = [ctrl ar_supportedRotations];
+            mask = [ctrl ar_supportedOrientations];
         }
     } else if (ctrl) {
-        mask = [ctrl ar_supportedRotations];
+        mask = [ctrl ar_supportedOrientations];
     }
     return mask;
 }

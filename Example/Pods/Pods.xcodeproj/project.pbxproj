@@ -6,22 +6,16 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		005380B8867EF39096AC44C212B16E11 /* AutoRotation */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 778D66E11BA140F7C24B0D925A946A3B /* Build configuration list for PBXAggregateTarget "AutoRotation" */;
-			buildPhases = (
-			);
-			dependencies = (
-			);
-			name = AutoRotation;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
-		0B41274FB6BE8F87292F442965CACF2D /* Pods-AutoRotation_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CCBFCBF2D51E7CDD42736237BB556054 /* Pods-AutoRotation_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8A48A5A51AC3A201D81A9D2F4FB6EF35 /* Pods-AutoRotation_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFC6DDE2EE5F16247F5DA0D9B104709 /* Pods-AutoRotation_Example-dummy.m */; };
+		0B41274FB6BE8F87292F442965CACF2D /* Pods-AutoRotation_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04979FAC9BD75743EF2407F7AEB48B29 /* Pods-AutoRotation_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1106E96C5E72E6858E356809A6D8BE96 /* AutoRotation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE62D46F62456CCCD180C86AFC7FDCFA /* AutoRotation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		183B51A34A9D843ED480675BB4C43835 /* AutoRotation.h in Headers */ = {isa = PBXBuildFile; fileRef = 20F32A004219CB2CA96431313858B6E2 /* AutoRotation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E81EB775B2ACA50E71E966D608A8851 /* UIViewController+AutoRotation.h in Headers */ = {isa = PBXBuildFile; fileRef = AC7DCDF68643636BAA224305B86823E6 /* UIViewController+AutoRotation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73DBEC511C830169AE02A8BE69D8DD95 /* AutoRotation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A59DBAC905F4E0C712C9F24DB758D8A /* AutoRotation-dummy.m */; };
+		8A48A5A51AC3A201D81A9D2F4FB6EF35 /* Pods-AutoRotation_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15235DE51C0B53C1D6DA75946CA72583 /* Pods-AutoRotation_Example-dummy.m */; };
+		8F7F886B5C1864ED4CA2FD2785630AA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		A05ADB7B2C6B6DDDD663A66C60BD513C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		B54201F209DE4752D52DBC86F1A92B06 /* UIViewController+AutoRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DE40EF8026A232A081B1EFC3774DC7 /* UIViewController+AutoRotation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,28 +23,37 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 005380B8867EF39096AC44C212B16E11;
+			remoteGlobalIDString = F38986688B62225C8FAB1B312252BBCA;
 			remoteInfo = AutoRotation;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2E2A1C211A051457D9F1FB4A497B83F1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		4E46B2C0B3CA239DE8A23DEE9D5D8F71 /* Pods_AutoRotation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AutoRotation_Example.framework; path = "Pods-AutoRotation_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		55FB8CA54FE026431376344D1595AAB2 /* AutoRotation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AutoRotation.xcconfig; sourceTree = "<group>"; };
-		650B4BC9DCCD8490E412751598E29945 /* Pods-AutoRotation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AutoRotation_Example.release.xcconfig"; sourceTree = "<group>"; };
-		6CB5E5D127D85DBC232D28F86364170C /* Pods-AutoRotation_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AutoRotation_Example-Info.plist"; sourceTree = "<group>"; };
-		908DB5AF2B48006719FB381668346BC4 /* Pods-AutoRotation_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AutoRotation_Example.modulemap"; sourceTree = "<group>"; };
-		9CF80FCFDEC67A38CBC46848FD0D65D4 /* Pods-AutoRotation_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AutoRotation_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		04979FAC9BD75743EF2407F7AEB48B29 /* Pods-AutoRotation_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AutoRotation_Example-umbrella.h"; sourceTree = "<group>"; };
+		15235DE51C0B53C1D6DA75946CA72583 /* Pods-AutoRotation_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AutoRotation_Example-dummy.m"; sourceTree = "<group>"; };
+		1A48E65913A473CE502C328367D3F235 /* AutoRotation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AutoRotation-Info.plist"; sourceTree = "<group>"; };
+		20F32A004219CB2CA96431313858B6E2 /* AutoRotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AutoRotation.h; path = AutoRotation/AutoRotation.h; sourceTree = "<group>"; };
+		32FA470B375DE75CAD282576949870C6 /* Pods-AutoRotation_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AutoRotation_Example.modulemap"; sourceTree = "<group>"; };
+		3965DCE9F2E339302AAA5DADBCDB0321 /* AutoRotation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AutoRotation.modulemap; sourceTree = "<group>"; };
+		55ABEBADC1961E05020B8B612F7029CE /* Pods_AutoRotation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AutoRotation_Example.framework; path = "Pods-AutoRotation_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69E7514098B9FE3E4DF6567587726531 /* AutoRotation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AutoRotation-prefix.pch"; sourceTree = "<group>"; };
+		6EF058C000AB0B32E2153A15E6C68887 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		87AF5A3E0242CEEAF726B1B5D8BC8398 /* Pods-AutoRotation_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AutoRotation_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9A59DBAC905F4E0C712C9F24DB758D8A /* AutoRotation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AutoRotation-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A486307FBABAAD22D0B3B4BBEE006A93 /* AutoRotation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AutoRotation.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AAFC6DDE2EE5F16247F5DA0D9B104709 /* Pods-AutoRotation_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AutoRotation_Example-dummy.m"; sourceTree = "<group>"; };
+		A30F80E3ED8410EC6CD16DD8E98D4D19 /* AutoRotation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AutoRotation.xcconfig; sourceTree = "<group>"; };
+		A86BD63C340F1EE94EC58A23C83E5AFB /* Pods-AutoRotation_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AutoRotation_Example-frameworks.sh"; sourceTree = "<group>"; };
+		AC7DCDF68643636BAA224305B86823E6 /* UIViewController+AutoRotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+AutoRotation.h"; path = "AutoRotation/UIViewController+AutoRotation.h"; sourceTree = "<group>"; };
+		B325E382249D1854C92E242320D31090 /* Pods-AutoRotation_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AutoRotation_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B5DE40EF8026A232A081B1EFC3774DC7 /* UIViewController+AutoRotation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+AutoRotation.m"; path = "AutoRotation/UIViewController+AutoRotation.m"; sourceTree = "<group>"; };
+		C1E959DC20A95BCBC77C6CAF7353C79B /* AutoRotation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AutoRotation.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C95F1B91C884F3B5BA2E6C4E5390F3A9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C9D584F2EA44547F1780D972D3D0F5E7 /* Pods-AutoRotation_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AutoRotation_Example-Info.plist"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CCBFCBF2D51E7CDD42736237BB556054 /* Pods-AutoRotation_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AutoRotation_Example-umbrella.h"; sourceTree = "<group>"; };
-		D4B2C2FF6A4BB9DF70CD79101ACAF88E /* Pods-AutoRotation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AutoRotation_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E4295B555820AED9959E94BAA4B5CD06 /* Pods-AutoRotation_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AutoRotation_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F4EAA8CED264169CE356FED3E9514263 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		FD9658210C2D637B6D9F3F75964ABFD7 /* AutoRotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AutoRotation.h; path = AutoRotation/AutoRotation.h; sourceTree = "<group>"; };
+		DED5FAA15C7768B0BA35EAED476ABCD8 /* Pods-AutoRotation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AutoRotation_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		EC3B6438C9390D25AC806F2138F8D976 /* AutoRotation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AutoRotation.framework; path = AutoRotation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE62D46F62456CCCD180C86AFC7FDCFA /* AutoRotation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AutoRotation-umbrella.h"; sourceTree = "<group>"; };
+		F12870B89CE1921EF6BAB40CCD1BAA69 /* Pods-AutoRotation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AutoRotation_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,67 +65,65 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		53CE8C6EF64515F6BA3B00980DE0A441 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F7F886B5C1864ED4CA2FD2785630AA3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		013DB722CA50DC067AA2EA297186A4CA /* Support Files */ = {
+		0D9FF9CC1DEA69884C30CEFB6E307752 /* Pods-AutoRotation_Example */ = {
 			isa = PBXGroup;
 			children = (
-				55FB8CA54FE026431376344D1595AAB2 /* AutoRotation.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/AutoRotation";
-			sourceTree = "<group>";
-		};
-		1C7B041DB7C1BB3DD64BB2D3DAA970D3 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5DA8DC2B3257430F29C0290550ED635E /* Pods-AutoRotation_Example */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		3DBFB7A092C661F5646A7E83554AA886 /* AutoRotation */ = {
-			isa = PBXGroup;
-			children = (
-				FD9658210C2D637B6D9F3F75964ABFD7 /* AutoRotation.h */,
-				A9A03AA3EEE716DC6252C83C28555354 /* Pod */,
-				013DB722CA50DC067AA2EA297186A4CA /* Support Files */,
-			);
-			name = AutoRotation;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		5DA8DC2B3257430F29C0290550ED635E /* Pods-AutoRotation_Example */ = {
-			isa = PBXGroup;
-			children = (
-				908DB5AF2B48006719FB381668346BC4 /* Pods-AutoRotation_Example.modulemap */,
-				9CF80FCFDEC67A38CBC46848FD0D65D4 /* Pods-AutoRotation_Example-acknowledgements.markdown */,
-				E4295B555820AED9959E94BAA4B5CD06 /* Pods-AutoRotation_Example-acknowledgements.plist */,
-				AAFC6DDE2EE5F16247F5DA0D9B104709 /* Pods-AutoRotation_Example-dummy.m */,
-				6CB5E5D127D85DBC232D28F86364170C /* Pods-AutoRotation_Example-Info.plist */,
-				CCBFCBF2D51E7CDD42736237BB556054 /* Pods-AutoRotation_Example-umbrella.h */,
-				D4B2C2FF6A4BB9DF70CD79101ACAF88E /* Pods-AutoRotation_Example.debug.xcconfig */,
-				650B4BC9DCCD8490E412751598E29945 /* Pods-AutoRotation_Example.release.xcconfig */,
+				32FA470B375DE75CAD282576949870C6 /* Pods-AutoRotation_Example.modulemap */,
+				B325E382249D1854C92E242320D31090 /* Pods-AutoRotation_Example-acknowledgements.markdown */,
+				87AF5A3E0242CEEAF726B1B5D8BC8398 /* Pods-AutoRotation_Example-acknowledgements.plist */,
+				15235DE51C0B53C1D6DA75946CA72583 /* Pods-AutoRotation_Example-dummy.m */,
+				A86BD63C340F1EE94EC58A23C83E5AFB /* Pods-AutoRotation_Example-frameworks.sh */,
+				C9D584F2EA44547F1780D972D3D0F5E7 /* Pods-AutoRotation_Example-Info.plist */,
+				04979FAC9BD75743EF2407F7AEB48B29 /* Pods-AutoRotation_Example-umbrella.h */,
+				DED5FAA15C7768B0BA35EAED476ABCD8 /* Pods-AutoRotation_Example.debug.xcconfig */,
+				F12870B89CE1921EF6BAB40CCD1BAA69 /* Pods-AutoRotation_Example.release.xcconfig */,
 			);
 			name = "Pods-AutoRotation_Example";
 			path = "Target Support Files/Pods-AutoRotation_Example";
 			sourceTree = "<group>";
 		};
-		67C48F83438A68C4F2F848D9E921BF6E /* Products */ = {
+		10A598D40FDB4B602AEA8973529FAAB1 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				4E46B2C0B3CA239DE8A23DEE9D5D8F71 /* Pods_AutoRotation_Example.framework */,
+				C1E959DC20A95BCBC77C6CAF7353C79B /* AutoRotation.podspec */,
+				6EF058C000AB0B32E2153A15E6C68887 /* LICENSE */,
+				C95F1B91C884F3B5BA2E6C4E5390F3A9 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		6F483B94063260C6B77ACB92C51065CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC3B6438C9390D25AC806F2138F8D976 /* AutoRotation.framework */,
+				55ABEBADC1961E05020B8B612F7029CE /* Pods_AutoRotation_Example.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6ED302CDD0B351B65299565C20162A15 /* Development Pods */ = {
+		7159B8DF60258CDF62A5D975628351E9 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3DBFB7A092C661F5646A7E83554AA886 /* AutoRotation */,
+				3965DCE9F2E339302AAA5DADBCDB0321 /* AutoRotation.modulemap */,
+				A30F80E3ED8410EC6CD16DD8E98D4D19 /* AutoRotation.xcconfig */,
+				9A59DBAC905F4E0C712C9F24DB758D8A /* AutoRotation-dummy.m */,
+				1A48E65913A473CE502C328367D3F235 /* AutoRotation-Info.plist */,
+				69E7514098B9FE3E4DF6567587726531 /* AutoRotation-prefix.pch */,
+				EE62D46F62456CCCD180C86AFC7FDCFA /* AutoRotation-umbrella.h */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AutoRotation";
 			sourceTree = "<group>";
 		};
 		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
@@ -133,24 +134,35 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		A9A03AA3EEE716DC6252C83C28555354 /* Pod */ = {
+		A531C8C2161BBBBBB72C8A5B238CFB0A /* AutoRotation */ = {
 			isa = PBXGroup;
 			children = (
-				A486307FBABAAD22D0B3B4BBEE006A93 /* AutoRotation.podspec */,
-				F4EAA8CED264169CE356FED3E9514263 /* LICENSE */,
-				2E2A1C211A051457D9F1FB4A497B83F1 /* README.md */,
+				20F32A004219CB2CA96431313858B6E2 /* AutoRotation.h */,
+				AC7DCDF68643636BAA224305B86823E6 /* UIViewController+AutoRotation.h */,
+				B5DE40EF8026A232A081B1EFC3774DC7 /* UIViewController+AutoRotation.m */,
+				10A598D40FDB4B602AEA8973529FAAB1 /* Pod */,
+				7159B8DF60258CDF62A5D975628351E9 /* Support Files */,
 			);
-			name = Pod;
+			name = AutoRotation;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CAEB92713CD5A5D0739C5C14521B1BF8 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A531C8C2161BBBBBB72C8A5B238CFB0A /* AutoRotation */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				6ED302CDD0B351B65299565C20162A15 /* Development Pods */,
+				CAEB92713CD5A5D0739C5C14521B1BF8 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				67C48F83438A68C4F2F848D9E921BF6E /* Products */,
-				1C7B041DB7C1BB3DD64BB2D3DAA970D3 /* Targets Support Files */,
+				6F483B94063260C6B77ACB92C51065CF /* Products */,
+				F6370E0838F3A00248373FB549B83200 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -160,6 +172,14 @@
 				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6370E0838F3A00248373FB549B83200 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D9FF9CC1DEA69884C30CEFB6E307752 /* Pods-AutoRotation_Example */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,10 +193,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CF2E8137DCF661CAA16D6C322F1EF031 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1106E96C5E72E6858E356809A6D8BE96 /* AutoRotation-umbrella.h in Headers */,
+				183B51A34A9D843ED480675BB4C43835 /* AutoRotation.h in Headers */,
+				1E81EB775B2ACA50E71E966D608A8851 /* UIViewController+AutoRotation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		9E998B9A6313810D4EB5FE51F2520D29 /* Pods-AutoRotation_Example */ = {
+		501385E951090A8695721F3AD87E9895 /* Pods-AutoRotation_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F352F6B525B999972BCB009792CC5D1D /* Build configuration list for PBXNativeTarget "Pods-AutoRotation_Example" */;
 			buildPhases = (
@@ -192,7 +222,25 @@
 			);
 			name = "Pods-AutoRotation_Example";
 			productName = "Pods-AutoRotation_Example";
-			productReference = 4E46B2C0B3CA239DE8A23DEE9D5D8F71 /* Pods_AutoRotation_Example.framework */;
+			productReference = 55ABEBADC1961E05020B8B612F7029CE /* Pods_AutoRotation_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F38986688B62225C8FAB1B312252BBCA /* AutoRotation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47FB3A428E680663BB58D94CAD945470 /* Build configuration list for PBXNativeTarget "AutoRotation" */;
+			buildPhases = (
+				CF2E8137DCF661CAA16D6C322F1EF031 /* Headers */,
+				2F20E4A27E40A4C47B381E126B58BC48 /* Sources */,
+				53CE8C6EF64515F6BA3B00980DE0A441 /* Frameworks */,
+				EF0B71566D2D4EA6127E52414EE06243 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoRotation;
+			productName = AutoRotation;
+			productReference = EC3B6438C9390D25AC806F2138F8D976 /* AutoRotation.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -212,12 +260,12 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 67C48F83438A68C4F2F848D9E921BF6E /* Products */;
+			productRefGroup = 6F483B94063260C6B77ACB92C51065CF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				005380B8867EF39096AC44C212B16E11 /* AutoRotation */,
-				9E998B9A6313810D4EB5FE51F2520D29 /* Pods-AutoRotation_Example */,
+				F38986688B62225C8FAB1B312252BBCA /* AutoRotation */,
+				501385E951090A8695721F3AD87E9895 /* Pods-AutoRotation_Example */,
 			);
 		};
 /* End PBXProject section */
@@ -230,9 +278,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EF0B71566D2D4EA6127E52414EE06243 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2F20E4A27E40A4C47B381E126B58BC48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73DBEC511C830169AE02A8BE69D8DD95 /* AutoRotation-dummy.m in Sources */,
+				B54201F209DE4752D52DBC86F1A92B06 /* UIViewController+AutoRotation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		702B8FE0EF53DB75B53296A6A96914C8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -247,29 +311,15 @@
 		FF57E52F9D09774FB3F4FF7E5862594F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AutoRotation;
-			target = 005380B8867EF39096AC44C212B16E11 /* AutoRotation */;
+			target = F38986688B62225C8FAB1B312252BBCA /* AutoRotation */;
 			targetProxy = 2CF9568CDDC502CE47568B055890FAB0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		035B811FB822C0626566931A5384900B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 55FB8CA54FE026431376344D1595AAB2 /* AutoRotation.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		037A1EB73E5E0273601A10810CF800A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D4B2C2FF6A4BB9DF70CD79101ACAF88E /* Pods-AutoRotation_Example.debug.xcconfig */;
+			baseConfigurationReference = DED5FAA15C7768B0BA35EAED476ABCD8 /* Pods-AutoRotation_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -360,6 +410,37 @@
 			};
 			name = Release;
 		};
+		1BD9CBC5241C0EA99F514A28E4E38DF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A30F80E3ED8410EC6CD16DD8E98D4D19 /* AutoRotation.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AutoRotation/AutoRotation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AutoRotation/AutoRotation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AutoRotation/AutoRotation.modulemap";
+				PRODUCT_MODULE_NAME = AutoRotation;
+				PRODUCT_NAME = AutoRotation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -424,22 +505,9 @@
 			};
 			name = Debug;
 		};
-		697040C28BAB9E81BD087D8265DDA73A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 55FB8CA54FE026431376344D1595AAB2 /* AutoRotation.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		74E817B5E4B661E9794EE4C96CA372B9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 650B4BC9DCCD8490E412751598E29945 /* Pods-AutoRotation_Example.release.xcconfig */;
+			baseConfigurationReference = F12870B89CE1921EF6BAB40CCD1BAA69 /* Pods-AutoRotation_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -471,23 +539,53 @@
 			};
 			name = Release;
 		};
+		7C25BDFF730B41766FB18A6EEA452DB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A30F80E3ED8410EC6CD16DD8E98D4D19 /* AutoRotation.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AutoRotation/AutoRotation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AutoRotation/AutoRotation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AutoRotation/AutoRotation.modulemap";
+				PRODUCT_MODULE_NAME = AutoRotation;
+				PRODUCT_NAME = AutoRotation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		47FB3A428E680663BB58D94CAD945470 /* Build configuration list for PBXNativeTarget "AutoRotation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C25BDFF730B41766FB18A6EEA452DB7 /* Debug */,
+				1BD9CBC5241C0EA99F514A28E4E38DF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
 				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		778D66E11BA140F7C24B0D925A946A3B /* Build configuration list for PBXAggregateTarget "AutoRotation" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				697040C28BAB9E81BD087D8265DDA73A /* Debug */,
-				035B811FB822C0626566931A5384900B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

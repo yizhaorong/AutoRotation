@@ -30,7 +30,7 @@
     [self presentViewController:alertControler animated:YES completion:nil];
 }
 
-- (UIInterfaceOrientationMask)ar_supportedRotations {
+- (UIInterfaceOrientationMask)ar_supportedOrientations {
     return UIInterfaceOrientationMaskAllButUpsideDown;
 }
 

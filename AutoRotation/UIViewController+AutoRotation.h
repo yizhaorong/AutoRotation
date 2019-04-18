@@ -15,7 +15,7 @@
 // 是否子控制器
 @property (nonatomic, assign) BOOL ar_isChildController;
 /// 支持的方向
-- (UIInterfaceOrientationMask)ar_supportedRotations;
+- (UIInterfaceOrientationMask)ar_supportedOrientations;
 /// 转到指定方向
 - (void)ar_turnToOrientation:(UIInterfaceOrientationMask)orientation;
 /// 转为竖屏
